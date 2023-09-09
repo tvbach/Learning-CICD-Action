@@ -4,6 +4,6 @@ on:
     branches: [master]
 jobs:
   say-hello:
-    runs-on: ububtu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo Hello world
