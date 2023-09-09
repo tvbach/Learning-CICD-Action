@@ -1,7 +1,7 @@
 name: learn-github-actions
 on: 
   push:
-    branch: [master]
+    branches: [master]
 
 jobs:
   say-hello:
