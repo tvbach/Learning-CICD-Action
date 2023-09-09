@@ -4,6 +4,7 @@ on:
     types: [opened, labeled, unlabeled, synchronize]
   push:
     branches: [master]
+  workflow_dispatch:
 jobs:
   say-hello:
     runs-on: ubuntu-latest
