@@ -1,2 +1,7 @@
-name: Hello world wolkflow
-
+name: Hello world
+on: [push]
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo Hello github
